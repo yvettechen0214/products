@@ -12,3 +12,15 @@ while True:
 
     products.append(little_products)
 print(products)
+
+for p in products:
+    print(p)
+
+for p in products:
+    print(p[0]) #只印出商品名字
+
+for p in products:
+    print(p[0], "的價格是", p[1])
+    
+    
+    
